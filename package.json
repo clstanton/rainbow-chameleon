@@ -1,0 +1,31 @@
+{
+  "name": "rainbow-chameleon",
+  "version": "1.0.0",
+  "description": "Object-oriented programming challenge",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clstanton/rainbow-chameleon.git"
+  },
+  "keywords": [
+    "objects",
+    "jest",
+    "classes",
+    "team"
+  ],
+  "author": "clstanton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clstanton/rainbow-chameleon/issues"
+  },
+  "homepage": "https://github.com/clstanton/rainbow-chameleon#readme",
+  "devDependencies": {
+    "jest": "^26.0.1"
+  }
+}
