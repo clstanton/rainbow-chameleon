@@ -8,3 +8,10 @@ test('creates an intern object', () => {
     expect(intern.email).toBe('rmcdonald@tbdemail.com');
     expect(intern.school).toBe('University of Texas');
 });
+
+test('get intern object', () => {
+    const intern = new Intern('Ryan McDonald', '12345', 'rmcdonald@tbdemail.com', 'University of Texas');
+
+    expect(intern.getSchool()).toHaveProperty('school');
+    expect(intern.getRole()).toHaveProperty('role');
+});
